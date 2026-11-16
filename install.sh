@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-pkg update -y && pkg install python openssh -y
+pkg update -y && pkg install python openssh -y && pip install arabic-reshaper python-bidi==0.4.2
 mkdir -p ~/ZERO-HACK
 cp zero_hack.py ~/ZERO-HACK/
 cat << 'INNER' > $PREFIX/bin/play
